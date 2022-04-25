@@ -1,4 +1,4 @@
-import {NextIntlProvider} from 'next-intl';
+import {NextIntlProvider, IntlErrorCode} from 'next-intl';
 
 function onError(error) {
   if (process.env.NODE_ENV !== 'production') {
